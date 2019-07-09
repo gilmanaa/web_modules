@@ -1,4 +1,42 @@
 body {
     margin: 0px;
     background-color: thistle;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.choose-wrapper button {
+    font-size: 20px;
+    background-color: crimson;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.headline {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px;
+    text-align: center;
+}
+.updated {
+    font-size: 12px;
+    margin: 5px;
+    text-align: center;
+}
+#reload {
+    font-size: 14px;
+    background-color: darkslateblue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.rss_data {
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px dashed white;
+}
+.hide {
+    display: none;
 }
